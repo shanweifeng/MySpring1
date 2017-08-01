@@ -1,16 +1,14 @@
 package com.swf.pattern23.abstractFactory;
 
+import com.swf.pattern23.Sender;
+
 /**
  * @Author shanweifeng
  * @Description:
  * @Date: Created in 13:41 2017/7/31
  * @Modified By:
  */
-public class SmsSender implements Sender
+public interface Provider
 {
-    @Override
-    public void send()
-    {
-        System.out.println("this is sms sender!");
-    }
+    Sender produce();
 }

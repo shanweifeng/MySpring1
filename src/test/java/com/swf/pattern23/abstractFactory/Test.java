@@ -1,5 +1,7 @@
 package com.swf.pattern23.abstractFactory;
 
+import com.swf.pattern23.Sender;
+
 /**
  * @Author shanweifeng
  * @Description:
