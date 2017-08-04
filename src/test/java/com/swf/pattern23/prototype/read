@@ -8,3 +8,10 @@
 
 如果clone类不识闲Cloneable则会抛出CloneNotSupportedException异常 ???
 Cloneable是一个空的接口，仅仅只是为了标记Object的clone方法？
+
+cloneable serializable 均为标记接口，接口内部是空的
+
+简单的做法，借助 Apache Commons 可以直接实现：
+
+深克隆/拷贝（deep clone/copy）： SerializationUtils   为同一类型
+浅克隆/拷贝（shallow clone/copy）：BeanUtils  可以为不同类型

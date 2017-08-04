@@ -1,4 +1,4 @@
-package com.swf.pattern23.adapter.adapterClass;
+package com.swf.pattern23.adapter;
 
 /**
  * Created by Administrator on 2017/8/2.

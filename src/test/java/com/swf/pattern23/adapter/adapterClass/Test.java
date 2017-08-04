@@ -1,5 +1,7 @@
 package com.swf.pattern23.adapter.adapterClass;
 
+import com.swf.pattern23.adapter.TargetTable;
+
 /**
  * Created by Administrator on 2017/8/2.
  */
