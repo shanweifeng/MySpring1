@@ -1,0 +1,30 @@
+package com.swf.pattern23.state;
+
+/**
+ * @Author shanweifeng
+ * @Description:
+ * @Date: Created in 14:39 2017/8/8
+ * @Modified By:
+ */
+public class State
+{
+    private String value;
+
+    public String getValue()
+    {
+        return value;
+    }
+
+    public void setValue(String value)
+    {
+        this.value = value;
+    }
+
+    public void method1(){
+        System.out.println("execute the first opt!");
+    }
+
+    public void method2(){
+        System.out.println("execute the second opt!");
+    }
+}
